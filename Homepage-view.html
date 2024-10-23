@@ -1,0 +1,66 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="reset.css">
+
+<style>
+    .icon-homepage {
+        height: 50px;
+        width: auto;
+    }
+</style>
+
+<div name="header">
+    <div class="row g-2 border">
+        <div name="left" class="col-2 border">
+            <div class="row d-flex align-items-center">
+                <div class="col-4">
+                    <img class="img-fluid mx-auto d-block icon-homepage" src="iconTraiBanh.png" alt="iconTraiBanh">
+                </div>
+                <div class="col">
+                    <h1>OFFB</h1>
+                </div>
+            </div>
+        </div>
+        <div name="middle" class="col-7 border">
+            <h1 name="role" class="dropdown dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                aria-haspopup="true" aria-expanded="false">Guest</h1>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Hompage-view.html">Quest</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="HompagePlayer-view.html">Player</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="HompageOwner-view.html">Owner</a>
+                    </div>
+        </div>
+        <div name="right" class="col border">
+            <div name="avatar">
+                <img src="" alt="avatar">
+            </div>
+            <a href="login-view.html" class="btn">login</a>
+        </div>
+    </div>
+</div>
+
+
+<div name="body">
+    <div class="left col-2 vh-100 border">
+        <nav class="nav flex-column bg-light">
+            <a class="btn">Available Field</a>
+            <a class="btn">Open Match</a>
+
+            <hr>
+
+            <a class="btn" href="Persional-view.html">Personal</a>
+            <a class="btn nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                aria-haspopup="true" aria-expanded="false">History</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Field booked</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#tab2Id">Math joined</a>
+            </div>
+        </nav>
+    </div>
+</div>
