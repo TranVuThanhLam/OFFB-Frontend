@@ -14,7 +14,7 @@
 <!-- Hàng trên -->
 <div name="header">
     <div class="row border">
-        <div name="left" class="col-2 border p-0">
+        <div name="left" class="col-2 p-0 border border-right">
             <div class="row d-flex align-items-center">
                 <div class="col-4">
                     <img class="img-fluid d-block icon-homepage mx-4" src="iconTraiBanh.png" alt="iconTraiBanh">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div name="middle" class="col-7 border">
+        <div name="middle" class="col-7 ">
             <h1 name="role" class="dropdown dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                 aria-haspopup="true" aria-expanded="false">Field Owner</h1>
             <div class="dropdown-menu">
@@ -35,7 +35,7 @@
                 <a class="dropdown-item" href="HompageOwner-view.html">Owner</a>
             </div>
         </div>
-        <div name="right" class="col border">
+        <div name="right" class="col border border-left">
             <div name="avatar">
                 <img src="Avatar.png" alt="avatar" class="img-fluid d-block icon-homepage">
             </div>
@@ -56,16 +56,18 @@
 
             <a class="btn" href="Persional-view.html">Personal</a>
 
-
+            <!-- history button -->
             <a class="btn nav-link dropdown-toggle" data-bs-toggle="collapse" href="#historyCollapse" role="button"
                 aria-expanded="false" aria-controls="historyCollapse">History</a>
 
             <div class="collapse" id="historyCollapse">
                 <nav class="nav flex-column bg-light">
-                    <a class="btn" href="#">Field booked</a>
-                    <a class="btn" href="#">Math joined</a>
+                    <a class="btn" href="FieldBooked-view.html">Field booked</a>
+                    <a class="btn" href="MathchJoined-view.html">Math joined</a>
                 </nav>
             </div>
+
+            <a class="btn">Field managerment</a>
 
 
         </nav>
